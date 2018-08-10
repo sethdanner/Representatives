@@ -11,7 +11,6 @@ import Foundation
 class RepresentativeController {
     
     let representatives: [Representative] = []
-    let shared = RepresentativeController()
     
     
 }

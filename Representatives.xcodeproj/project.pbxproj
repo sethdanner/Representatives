@@ -14,6 +14,9 @@
 		60F59449211E0959004793EC /* Representative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F59448211E0959004793EC /* Representative.swift */; };
 		60F5944B211E0A12004793EC /* RepresentativeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F5944A211E0A12004793EC /* RepresentativeController.swift */; };
 		60F5944D211E123D004793EC /* States.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F5944C211E123D004793EC /* States.swift */; };
+		60F5944F211E1396004793EC /* StateListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F5944E211E1396004793EC /* StateListTableViewController.swift */; };
+		60F59451211E15E1004793EC /* StateDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F59450211E15E1004793EC /* StateDetailTableViewController.swift */; };
+		60F59453211E1683004793EC /* RepresentativeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F59452211E1683004793EC /* RepresentativeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		60F59448211E0959004793EC /* Representative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Representative.swift; sourceTree = "<group>"; };
 		60F5944A211E0A12004793EC /* RepresentativeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepresentativeController.swift; sourceTree = "<group>"; };
 		60F5944C211E123D004793EC /* States.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = States.swift; sourceTree = "<group>"; };
+		60F5944E211E1396004793EC /* StateListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateListTableViewController.swift; sourceTree = "<group>"; };
+		60F59450211E15E1004793EC /* StateDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDetailTableViewController.swift; sourceTree = "<group>"; };
+		60F59452211E1683004793EC /* RepresentativeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepresentativeTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,9 @@
 				60F59448211E0959004793EC /* Representative.swift */,
 				60F5944C211E123D004793EC /* States.swift */,
 				60F5944A211E0A12004793EC /* RepresentativeController.swift */,
+				60F5944E211E1396004793EC /* StateListTableViewController.swift */,
+				60F59450211E15E1004793EC /* StateDetailTableViewController.swift */,
+				60F59452211E1683004793EC /* RepresentativeTableViewCell.swift */,
 				60F59447211E0811004793EC /* Views */,
 				60A3E757211E078E00AE6891 /* Resources */,
 			);
@@ -157,9 +166,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60F59453211E1683004793EC /* RepresentativeTableViewCell.swift in Sources */,
 				60F59449211E0959004793EC /* Representative.swift in Sources */,
 				60F5944B211E0A12004793EC /* RepresentativeController.swift in Sources */,
+				60F59451211E15E1004793EC /* StateDetailTableViewController.swift in Sources */,
 				60A3E746211E06C500AE6891 /* AppDelegate.swift in Sources */,
+				60F5944F211E1396004793EC /* StateListTableViewController.swift in Sources */,
 				60F5944D211E123D004793EC /* States.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
